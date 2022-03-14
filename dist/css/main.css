@@ -55,7 +55,7 @@ section {
     font-size: 1.3rem;
     max-width: 400px;
     margin-bottom: 2rem;
-    color: #757575; }
+    color: #a10000; /* Change text color to (darker) red - BULLET 9 */}
 
 .header-text-2 h2 {
   font-size: 2rem;
@@ -63,7 +63,7 @@ section {
   font-weight: 600; }
 
 .header-text-2 p {
-  color: #757575;
+  color: #a10000 /* Change text color to (darker) red - BULLET 9 */;
   font-size: 1.5rem;
   font-weight: 500;
   max-width: 600px; }
@@ -76,11 +76,11 @@ section {
   font-size: 3rem;
   letter-spacing: -0.15rem;
   line-height: 1.2;
-  color: #ff0000; /* Change text color to red - BULLET 9 */
+  color: #a10000; /* Change text color to red - BULLET 9 */
   margin-bottom: 1rem; }
 
 .heading-two {
-  color: #333333;
+  color: #a10000 /* Change text color to (darker) red - BULLET 9 */;
   font-size: 2.25rem;
   font-weight: 600;
   text-align: center;
@@ -105,7 +105,7 @@ section {
       margin-bottom: 1rem; }
     .card-container-one .card h2 {
       font-size: 4.0rem /*Change to make feature images' captions bigger - BULLET 1 */;
-      color: #333333;
+      color: #a10000 /* Change text color to (darker) red - BULLET 9 */;
       font-weight: 600; }
 
 .card-container-two {
@@ -162,8 +162,8 @@ section {
 
 body {
   font-family: "Inter", sans-serif;
-  background: #4dff20; /* Change background color to green - BULLET */
-  color: #111827;
+  background: #a10000; /* Change background color to red - BULLET 9 */
+  color: #a10000;
   line-height: 1.5;
   max-width: 1400px;
   margin: 0 auto;
@@ -187,7 +187,7 @@ a {
   display: grid;
   grid-template-columns: 1.06fr 6fr;
   overflow-y: hidden;
-  background: #fff; }
+  background: #4dff20; /* Change background color to red - BULLET 9 */ }
   #container .left-container {
     display: flex;
     flex-direction: column;
