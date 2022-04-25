@@ -20,36 +20,6 @@
     <script src="./js/script.js" async></script>
   </head>
   <body>
-    <!-- Space to reference audio file - for hover on specific page elements -->
-    <audio id = 'hoverSound' src = "Menu Selection Sound Effect.mp3"></audio>
-
-    <!-- Division for COPPA Act Popup -->
-    <div id="overlay"></div>
-    <div id="popup">
-        <div class="popupcontrols">
-            <span id="popupclose">X</span>
-        </div>
-        <div class="popupcontent">
-          <h1 style="text-align: center;"> Children's Privacy Policy </h1> <br>
-
-          <p style="text-align: center; word-spacing: 0.2em;"> In accordance with the COPPA Act, LinearBytes must ensure that all users who access hashnode comply with the COPPA standards for data protection and privacy. 
-            Please select below if you are (a) 13 years of age or older, or (b) under 13 years of age.
-          </p>
-
-          <br>
-          <p> If you are under 13 years of age, hashnode will need your parent's permission before you can use this website. </p>
-
-          <br>
-          <br>
-          <div class="btn btn-primary popupcontrols">
-            <span id="popupclose">Yes, I am 13 years of age or older</span>
-          </div>
-        
-          </button>
-          <button class = "btn btn-primary btn-primary-popup popupcontrols"> <span id = "popupclose"></span> No, I am not 13 years of age or older</button>
-        </div>
-    </div>
-
     <!-- Container -->
     <div id="container">
       <!-- Side bar -->
@@ -67,11 +37,7 @@
 
             <!-- logo -->
             <h1 id="logo" class="invisible">
-              <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://hashnode.com"
+              <a href="https://hashnode.com"
                 ><img
                   class="white"
                   src="./images/logo/brand-icon.png"
@@ -83,58 +49,30 @@
             <div class="nav-menu">
               <!-- Write button -->
               <a
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-                         
                 href="https://hashnode.com/create/story"
                 class="btn btn-primary"
                 ><img src="./icons/pencil.svg" alt="pencil icon" />WRITE</a
               >
-              
               <!-- Header icons -->
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://hashnode.com/community" class="nav-link"
+              <a href="https://hashnode.com/community" class="nav-link"
                 ><img src="./icons/feed.svg" alt="Feed icon" />My Feed</a
               >
-              <a
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://hashnode.com/explore" class="nav-link"
+              <a href="https://hashnode.com/explore" class="nav-link"
                 ><img src="./icons/explore.svg" alt="Explore icon" />Explore</a
               >
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://hashnode.com/tags" class="nav-link"
+              <a href="https://hashnode.com/tags" class="nav-link"
                 ><img src="./icons/tags.svg" alt="Tags icon" />Tags</a
               >
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://hashnode.com/bookmarks" class="nav-link"
+              <a href="https://hashnode.com/bookmarks" class="nav-link"
                 ><img
                   src="./icons/bookmarks.svg"
                   alt="Bookmark icon"
                 />Bookmarks</a
               >
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://hashnode.com/search" class="nav-link"
+              <a href="https://hashnode.com/search" class="nav-link"
                 ><img src="./icons/search.svg" alt="Search icon" />Search</a
               >
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="" class="nav-link"
+              <a href="" class="nav-link"
                 ><img
                   src="./icons/caret-down.svg"
                   alt="Caret down icon"
@@ -145,25 +83,13 @@
 
           <!-- Navbar icons (bottom) -->
           <div class="flex-end">
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-
-            href="#" class="header-icons"
+            <a href="#" class="header-icons"
               ><img src="./icons/light-toggle.svg" alt="Theme switch"
             /></a>
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-            
-            href="#" class="header-icons"
+            <a href="#" class="header-icons"
               ><img src="./icons/bell.svg" alt="Bell icon"
             /></a>
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-            
-            href="#" class="header-icons"
+            <a href="#" class="header-icons"
               ><img src="./icons/user-profile.png" alt="User profile"
             /></a>
           </div>
@@ -175,19 +101,14 @@
         <div class="navbar-secondary">
           <h2>Blogging as a developer, done right!</h2>
           <div class="buttons">
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-
-            href="https://hashnode.com/onboard" class="btn btn-light"
-              >Login</a>
+            <a href="https://hashnode.com/onboard" class="btn btn-light"
+              >Login</a
+            >
             <a
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-
               href="https://hashnode.com/onboard?unlock-blog=true"
               class="btn btn-primary"
-              >Create Account</a>
+              >Create an account</a
+            >
           </div>
         </div>
 
@@ -195,15 +116,17 @@
           <section class="hero">
             <div class="highlight-text">
               <a
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-
                 href="https://townhall.hashnode.com/dollar67m-in-series-a-funding-to-build-the-next-gen-developer-blogging-community"
                 class="btn btn-secondary"
-                >Announcement </a> 
+                >Announcement</a
+              >
               <p>
                 🙌 $6.7M in fresh funding to build the next-gen developer
-                blogging community. 
+                blogging community.
+                <a
+                  href="https://townhall.hashnode.com/dollar67m-in-series-a-funding-to-build-the-next-gen-developer-blogging-community"
+                  >Learn more</a
+                >
               </p>
             </div>
 
@@ -214,9 +137,6 @@
                 community!
               </p>
               <a
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-
                 href="https://hashnode.com/onboard?unlock-blog=true"
                 class="btn btn-primary"
                 >Start your personal blog for FREE</a
@@ -304,10 +224,7 @@
             <!-- Card three -->
             <div class="card-container card-container-three">
               <div class="card">
-                <div class ="img1"> <!-- Implementation of subclass to make images in section of variable size
-                  - BULLET 3 -->
-                  <img src="./images/illustrations/illustration-two.png" alt="" />
-                </div>
+                <img src="./images/illustrations/illustration-two.png" alt="" />
                 <div>
                   <h3>Blog on your personal domain</h3>
                   <p>
@@ -323,10 +240,10 @@
               </div>
 
               <div class="card">
-                <div class ="img2"> <!-- Implementation of subclass to make images in section of variable size
-                  - BULLET 3 -->
-                  <img src="./images/illustrations/illustration-three.png" alt=""/>
-                </div>
+                <img
+                  src="./images/illustrations/illustration-three.png"
+                  alt=""
+                />
                 <div>
                   <h3>Instantly find your audience</h3>
                   <p>
@@ -339,10 +256,10 @@
               </div>
 
               <div class="card">
-                <div class ="img3"> <!-- Implementation of subclass to make images in section of variable size
-                  - BULLET 3 -->
-                  <img src="./images/illustrations/illustration-four.png"alt=""/>
-                </div>
+                <img
+                  src="./images/illustrations/illustration-four.png"
+                  alt=""
+                />
                 <div>
                   <h3>No annoying pop-ups/ads</h3>
                   <p>
@@ -359,9 +276,6 @@
             </div>
 
             <a
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-
               href="https://hashnode.com/onboard?unlock-blog=true"
               class="btn btn-primary"
               >Get Started</a
@@ -541,9 +455,6 @@
             </div>
 
             <a
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-
               href="https://hashnode.com/onboard?unlock-blog=true"
               class="btn btn-primary"
               >Get Started</a
@@ -581,28 +492,16 @@
           <div class="card-container-three">
             <!-- user one -->
             <div class="card">
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://blog.mahmoud-salem.net/" target="_blank">
+              <a href="https://blog.mahmoud-salem.net/" target="_blank">
                 <img
                   src="https://cdn.hashnode.com/res/hashnode/image/upload/v1614002949411/fmkwRxtdN.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
                   alt="Mahmoud Salem"
               /></a>
               <div>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-
-                href="https://blog.mahmoud-salem.net/" target="_blank"
+                <a href="https://blog.mahmoud-salem.net/" target="_blank"
                   >Mahmoud Salem</a
                 >
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://blog.mahmoud-salem.net/" target="_blank"
+                <a href="https://blog.mahmoud-salem.net/" target="_blank"
                   >blog.mahmoud-salem.net</a
                 >
                 <p>
@@ -615,28 +514,16 @@
 
             <!-- User two -->
             <div class="card">
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-
-              href="https://blog.greenroots.info/" target="_blank">
+              <a href="https://blog.greenroots.info/" target="_blank">
                 <img
                   src="https://cdn.hashnode.com/res/hashnode/image/upload/v1630661606746/ws_fP3uXs.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
                   alt="Tapas Adhikary"
               /></a>
               <div>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-
-                href="https://blog.greenroots.info/" target="_blank"
+                <a href="https://blog.greenroots.info/" target="_blank"
                   >Tapas Adhikary</a
                 >
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://blog.greenroots.info/" target="_blank"
+                <a href="https://blog.greenroots.info/" target="_blank"
                   >blog.greenroots.info</a
                 >
                 <p>Writer . YouTuber . Creator . Mentor | Let's Connect</p>
@@ -645,22 +532,14 @@
 
             <!-- User three -->
             <div class="card">
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://miguendes.me/" target="_blank">
+              <a href="https://miguendes.me/" target="_blank">
                 <img
                   src="https://cdn.hashnode.com/res/hashnode/image/upload/v1598688712924/HZ_m169wn.png?w=200&h=200&fit=crop&crop=faces&auto=compress"
                   alt="Miguel Brito"
               /></a>
               <div>
                 <a href="https://miguendes.me/" target="_blank">Miguel Brito</a>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-
-                href="https://miguendes.me/" target="_blank">miguendes.me</a>
+                <a href="https://miguendes.me/" target="_blank">miguendes.me</a>
                 <p>
                   Machine Learning Engineer - Technical Writer-ish - Interested
                   in Software Testing, Best Practices, Scalability, and Python.
@@ -670,28 +549,16 @@
 
             <!-- User four -->
             <div class="card">
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://lo-victoria.com/" target="_blank">
+              <a href="https://lo-victoria.com/" target="_blank">
                 <img
                   src="https://cdn.hashnode.com/res/hashnode/image/upload/v1592617052267/KUaHl6HMa.png?w=200&h=200&fit=crop&crop=faces&auto=compress"
                   alt="Victoria Lo"
               /></a>
               <div>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-
-                href="https://lo-victoria.com/" target="_blank"
+                <a href="https://lo-victoria.com/" target="_blank"
                   >Victoria Lo</a
                 >
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://lo-victoria.com/" target="_blank"
+                <a href="https://lo-victoria.com/" target="_blank"
                   >lo-victoria.com</a
                 >
                 <p>
@@ -704,28 +571,16 @@
 
             <!-- User five -->
             <div class="card">
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://travishorn.com/" target="_blank">
+              <a href="https://travishorn.com/" target="_blank">
                 <img
                   src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627404475851/24u-J4UH6.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
                   alt="Travis Horn"
               /></a>
               <div>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://travishorn.com/" target="_blank"
+                <a href="https://travishorn.com/" target="_blank"
                   >Travis Horn</a
                 >
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://travishorn.com/" target="_blank"
+                <a href="https://travishorn.com/" target="_blank"
                   >travishorn.com</a
                 >
                 <p>
@@ -738,52 +593,28 @@
 
             <!-- User six -->
             <div class="card">
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-
-              href="https://tlkh.dev/" target="_blank">
+              <a href="https://tlkh.dev/" target="_blank">
                 <img
                   src="https://cdn.hashnode.com/res/hashnode/image/upload/v1631951146290/wI0DP_Y0x.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
                   alt="Timothy Liu"
               /></a>
               <div>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://tlkh.dev/" target="_blank">Timothy Liu</a>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://tlkh.dev/" target="_blank">tlkh.dev</a>
+                <a href="https://tlkh.dev/" target="_blank">Timothy Liu</a>
+                <a href="https://tlkh.dev/" target="_blank">tlkh.dev</a>
                 <p>ML PhD student @ SUTD Singapore</p>
               </div>
             </div>
 
             <!-- User seven -->
             <div class="card">
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://catalins.tech/" target="_blank">
+              <a href="https://catalins.tech/" target="_blank">
                 <img
                   src="https://cdn.hashnode.com/res/hashnode/image/upload/v1630318765655/cI-kHwk4o.png?w=200&h=200&fit=crop&crop=faces&auto=compress"
                   alt="Catalin Pit"
               /></a>
               <div>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://catalins.tech/" target="_blank">Catalin Pit</a>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://catalins.tech/" target="_blank"
+                <a href="https://catalins.tech/" target="_blank">Catalin Pit</a>
+                <a href="https://catalins.tech/" target="_blank"
                   >catalins.tech</a
                 >
                 <p>
@@ -795,28 +626,16 @@
 
             <!-- User eight -->
             <div class="card">
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://pokecoder.hashnode.dev/" target="_blank">
+              <a href="https://pokecoder.hashnode.dev/" target="_blank">
                 <img
                   src="https://cdn.hashnode.com/res/hashnode/image/upload/v1636423911258/z6GFl1Kwj.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
                   alt="Ale Thomas"
               /></a>
               <div>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://pokecoder.hashnode.dev/" target="_blank"
+                <a href="https://pokecoder.hashnode.dev/" target="_blank"
                   >Ale Thomas</a
                 >
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://pokecoder.hashnode.dev/" target="_blank"
+                <a href="https://pokecoder.hashnode.dev/" target="_blank"
                   >pokecoder.hashnode.dev</a
                 >
                 <p>
@@ -829,28 +648,16 @@
 
             <!-- User nine -->
             <div class="card">
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://blog.oliverjumpertz.dev/" target="_blank">
+              <a href="https://blog.oliverjumpertz.dev/" target="_blank">
                 <img
                   src="https://cdn.hashnode.com/res/hashnode/image/upload/v1606724735544/CjYmvn1SZ.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
                   alt="Oliver Jumpertz"
               /></a>
               <div>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://blog.oliverjumpertz.dev/" target="_blank"
+                <a href="https://blog.oliverjumpertz.dev/" target="_blank"
                   >Oliver Jumpertz</a
                 >
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://blog.oliverjumpertz.dev/" target="_blank"
+                <a href="https://blog.oliverjumpertz.dev/" target="_blank"
                   >blog.oliverjumpertz.dev</a
                 >
                 <p>
@@ -863,28 +670,16 @@
 
             <!-- User ten -->
             <div class="card">
-              <a 
-                onmouseover="playHoverSound('hoverSound')"
-                onmouseout="stopHoverSound('hoverSound')"
-              
-              href="https://blog.suhailkakar.com/" target="_blank">
+              <a href="https://blog.suhailkakar.com/" target="_blank">
                 <img
                   src="https://cdn.hashnode.com/res/hashnode/image/upload/v1634885670020/jHKpLrUDL.jpeg?w=200&h=200&fit=crop&crop=faces&auto=compress"
                   alt="Suhail Kakar"
               /></a>
               <div>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://blog.suhailkakar.com/" target="_blank"
+                <a href="https://blog.suhailkakar.com/" target="_blank"
                   >Suhail Kakar</a
                 >
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://blog.suhailkakar.com/" target="_blank"
+                <a href="https://blog.suhailkakar.com/" target="_blank"
                   >blog.suhailkakar.com</a
                 >
                 <p>
@@ -896,11 +691,7 @@
             </div>
           </div>
 
-          <a 
-            onmouseover="playHoverSound('hoverSound')"
-            onmouseout="stopHoverSound('hoverSound')"
-          
-          href="https://hashnode.com/explore" class="btn btn-light"
+          <a href="https://hashnode.com/explore" class="btn btn-light"
             >Browse more blogs &nbsp; <i class="fas fa-chevron-right"></i
           ></a>
         </section>
@@ -1043,11 +834,7 @@
             </div>
           </div>
 
-          <a 
-            onmouseover="playHoverSound('hoverSound')"
-            onmouseout="stopHoverSound('hoverSound')"
-          
-          href="https://hashnode.com/testimonials" class="btn btn-light"
+          <a href="https://hashnode.com/testimonials" class="btn btn-light"
             >See All Testimonials &nbsp; <i class="fas fa-chevron-right"></i
           ></a>
         </section>
@@ -1058,9 +845,6 @@
           <h2 class="heading-two">Start blogging with Hashnode, it's Free!</h2>
           <p>Join the fastest growing dev community 🚀</p>
           <a
-            onmouseover="playHoverSound('hoverSound')"
-            onmouseout="stopHoverSound('hoverSound')"
-
             href="https://hashnode.com/onboard?unlock-blog=true"
             class="btn btn-primary"
             >Start your personal blog for FREE</a
@@ -1075,11 +859,7 @@
             <div>
               <!-- logo -->
               <h1 id="logo">
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com"
+                <a href="https://hashnode.com"
                   ><img
                     class="white"
                     src="./images/logo/brand-icon.png"
@@ -1107,56 +887,32 @@
             <ul>
               <h4>Explore</h4>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/community?source=hashnode-footer"
+                <a href="https://hashnode.com/community?source=hashnode-footer"
                   >Feed</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/explore?source=hashnode-footer"
+                <a href="https://hashnode.com/explore?source=hashnode-footer"
                   >Trending Blogs</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/tags?source=hashnode-footer"
+                <a href="https://hashnode.com/tags?source=hashnode-footer"
                   >Tags</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/search?source=hashnode-footer"
+                <a href="https://hashnode.com/search?source=hashnode-footer"
                   >Search</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/bookmarks?source=hashnode-footer"
+                <a href="https://hashnode.com/bookmarks?source=hashnode-footer"
                   >Bookmarks</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://api.hashnode.com/?source=hashnode-footer"
+                <a href="https://api.hashnode.com/?source=hashnode-footer"
                   >Hashnode APIs</a
                 >
               </li>
@@ -1165,47 +921,27 @@
             <ul>
               <h4>Company</h4>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/about?source=hashnode-footer"
+                <a href="https://hashnode.com/about?source=hashnode-footer"
                   >About Hashnode</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://careers.hashnode.com/?source=hashnode-footer"
+                <a href="https://careers.hashnode.com/?source=hashnode-footer"
                   >Careers</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-
-                href="https://townhall.hashnode.com/?source=hashnode-footer"
+                <a href="https://townhall.hashnode.com/?source=hashnode-footer"
                   >Official Blog</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/media?source=hashnode-footer"
+                <a href="https://hashnode.com/media?source=hashnode-footer"
                   >Logos and Media</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/changelog?source=hashnode-footer"
+                <a href="https://hashnode.com/changelog?source=hashnode-footer"
                   >Changelog</a
                 >
               </li>
@@ -1214,38 +950,23 @@
             <ul>
               <h4>Comparisons</h4>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/vs/medium?source=hashnode-footer"
+                <a href="https://hashnode.com/vs/medium?source=hashnode-footer"
                   >Hashnode vs Medium</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/vs/ghost?source=hashnode-footer"
+                <a href="https://hashnode.com/vs/ghost?source=hashnode-footer"
                   >Hashnode vs Ghost</a
                 >
               </li>
               <li>
                 <a
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-
                   href="https://hashnode.com/vs/wordpress?source=hashnode-footer"
                   >Hashnode vs WordPress</a
                 >
               </li>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://hashnode.com/vs/devto?source=hashnode-footer"
+                <a href="https://hashnode.com/vs/devto?source=hashnode-footer"
                   >Hashnode vs Dev.to</a
                 >
               </li>
@@ -1254,29 +975,14 @@
             <ul>
               <h4>Support</h4>
               <li>
-                <a 
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-
-                href="https://support.hashnode.com/?source=hashnode-footer"
+                <a href="https://support.hashnode.com/?source=hashnode-footer"
                   >Support Docs</a
                 >
               </li>
-              <li><a 
-                    onmouseover="playHoverSound('hoverSound')"
-                    onmouseout="stopHoverSound('hoverSound')"
-                
-                href="mailto:hello@hashnode.com">Contact</a></li>
-              <li><a 
-                    onmouseover="playHoverSound('hoverSound')"
-                    onmouseout="stopHoverSound('hoverSound')"
-                
-                href="https://discord.gg/qsAQfxX">Join Discord</a></li>
+              <li><a href="mailto:hello@hashnode.com">Contact</a></li>
+              <li><a href="https://discord.gg/qsAQfxX">Join Discord</a></li>
               <li>
                 <a
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-
                   href="https://hashnode.com/feature-requests?source=hashnode-footer"
                   >Feature Requests</a
                 >
@@ -1286,18 +992,11 @@
             <div class="footer-button">
               <div>
                 <a
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-
                   href="https://hashnode.com/onboard?unlock-blog=true&source=hashnode-footer"
                   class="btn btn-primary"
                   >Start A Blog</a
                 >
                 <a
-                  onmouseover="playHoverSound('hoverSound')"
-                  onmouseout="stopHoverSound('hoverSound')"
-
-
                   href="https://hashnode.com/onboard?source=hashnode-footer"
                   class="btn btn-light"
                   >Sign In</a
@@ -1310,52 +1009,25 @@
 
           <!-- Footer end -->
           <div class="footer-end">
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-            
-            href="https://twitter.com/hashnode"
+            <a href="https://twitter.com/hashnode"
               ><i class="fab fa-twitter"></i
             ></a>
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-            
-            href="https://www.linkedin.com/company/hashnode/"
+            <a href="https://www.linkedin.com/company/hashnode/"
               ><i class="fab fa-linkedin"></i
             ></a>
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-
-            href="https://instagram.com/hashnode"
+            <a href="https://instagram.com/hashnode"
               ><i class="fab fa-instagram"></i
             ></a>
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-            
-            href="https://github.com/hashnode"
+            <a href="https://github.com/hashnode"
               ><i class="fab fa-github"></i
             ></a>
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-            
-            href="https://facebook.com/hashnode"
+            <a href="https://facebook.com/hashnode"
               ><i class="fab fa-facebook"></i
             ></a>
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-            
-            href="https://www.youtube.com/channel/UC8mNp5jUzd2e6qvbdQtUsQw/"
+            <a href="https://www.youtube.com/channel/UC8mNp5jUzd2e6qvbdQtUsQw/"
               ><i class="fab fa-youtube"></i
             ></a>
           </div>
-
-          <!-- Image to show website's official COPPA compliance -->
-          <img style="height: 20%; width: 20%; margin-left: 80%; margin-top: -50%;" src="images/coppa-compliance.png">
         </footer>
 
         <div class="underline"></div>
@@ -1363,18 +1035,9 @@
         <div class="masthead">
           <p>© 2021 LinearBytes Inc.</p>
           <div>
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-            
-            href="https://hashnode.com/privacy">Privacy Policy</a> &nbsp;
-            <a 
-              onmouseover="playHoverSound('hoverSound')"
-              onmouseout="stopHoverSound('hoverSound')"
-            
-            href="https://hashnode.com/terms">Terms</a>
+            <a href="https://hashnode.com/privacy">Privacy Policy</a> &nbsp;
+            <a href="https://hashnode.com/terms">Terms</a>
           </div>
-        </div>
         </div>
       </main>
     </div>
